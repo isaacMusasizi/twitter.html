@@ -1,0 +1,135 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap')*/
+
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #ecf0f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    overflow: hidden;
+    font-family: poopins;
+}
+.container{
+    position: relative;
+    width: 520px;
+    height: 555px;
+    padding: 55px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: #d5e3ed;
+    box-shadow: 10px 10px 14px #c4c9ce, -10px -10px -14px rgb(187, 192, 201);
+}
+.brand-logo{
+    height: 100px;
+    width: 100px;
+    background: url(http://img.icons8.com/color/100/000000/twitter--v2png);
+    margin: auto;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+}
+.brand-title{
+    margin-top: 10px;
+    font-weight: 900;
+    font-size: 1.8rem;
+    color: #1DA1F2;
+    letter-spacing: 1px;
+    }
+.inputs{
+    text-align: left;
+    margin-top: 30px;
+}
+label, input, button{
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 4px;
+}
+label:nth-of-type(2) {
+    margin-top: 12px;
+}
+input::placeholder{
+    color: grey;
+}
+.input{
+    background: #ecf0f3;
+    padding: 0px;
+    padding-left: 20px;
+    height: 25px;
+    font-size: 14spx;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1 inset -6px -6px white;
+}
+button{
+    font-size: 20px;
+    margin-top: auto;
+    background: #1DA1F2;
+    height: 40px;
+    width: 155px;
+    margin-left: 115px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: lighter;
+    color: blue;
+    box-shadow: 6px 6px 6px #cbced1 -6px -6px  6px rgb(255, 255, 255);
+    transition: 0.5s ease ease-in-out;
+}
+button:hover{
+    color: rgb(125, 28, 107);
+}
+a{
+    position: absolute;
+    font-size: 12px;
+    bottom: 4px;
+    right: 5px;
+    text-decoration: none;
+    color: rgb(47, 29, 136);
+    background: rgb(144, 216, 232);
+    border-radius: 5px;
+}
+h1{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+.email{
+    margin-top: 10px;
+}
+
+.email , .pas{
+    height: 40px;
+    border-radius: 30px;
+    font-size: 7spx;
+    padding-left: 8px;
+    transition: 0.4 ease-in-out;
+}
+.hey{
+    background-color:#1DA1F2;
+}
+.pas{
+    margin-top: 10px;
+}
+h4{
+    font-weight: lighter;
+    text-decoration: underline;
+    text-decoration-color: rgb(16, 18, 18);
+    cursor: pointer;
+}
+h4:hover{
+    color:#1DA1F2;
+}
+h2{
+    font-weight: lighter;
+    font-size: 20px;
+    color: #4271bd;
+    letter-spacing: 1px;
+    font-family: algerian; 
+}
